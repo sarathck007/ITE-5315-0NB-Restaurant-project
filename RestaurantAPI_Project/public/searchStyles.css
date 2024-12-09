@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form */
+form {
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #6C5B7B;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3B2A45;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Results */
+.results {
+    margin-top: 30px;
+}
+
+.restaurant-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 18px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card h3 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #6C5B7B;
+}
+
+.restaurant-card p {
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+.restaurant-card strong {
+    font-weight: bold;
+}
+
+/* Adjust background and text colors for a softer look */
+h2 {
+    color: #6C5B7B;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
